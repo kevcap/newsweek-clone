@@ -1,8 +1,18 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
 
 * {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  background-color: #f72210;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* WORKING ON HEADER */
+.navbar-right > a {
+  font-size: 14px;
 }
 
 .navbar-right > a:hover {
@@ -10,22 +20,12 @@
   text-decoration: none;
 }
 
-.navbar-right > a:last-child:hover {
-  color: #f72210;
-}
-
 .navbar-right a:first-child {
   color: #fff;
 }
 
-.navbar-right > a {
-  font-size: 14px;
-}
-
-header {
-  background-color: #f72210;
-  text-transform: uppercase;
-  font-weight: 700;
+.navbar-right > a:last-child:hover {
+  color: #f72210;
 }
 
 .brand svg {
@@ -45,8 +45,7 @@ header {
   fill: #f72210;
   height: -moz-fit-content;
   height: fit-content;
-  margin: auto 0 auto 10px;
-
+  margin-left: 7px;
 }
 
 .icon-menu {
@@ -65,7 +64,10 @@ header {
   width: 26px;
 }
 
-@media (min-width: 575px) {
+/* WORKING ON MAIN */
+
+/* WORKING ON MEDIA-QUERY */
+@media (min-width: 481px) {
   .navbar-right > a {
     font-size: 18px;
   }
@@ -73,5 +75,19 @@ header {
   .navbar-right a:last-child {
     padding: 3px 6px;
     line-height: 1.15;
+  }
+
+  .icon-menu {
+    margin: 0 10px;
+  }
+
+  .icon-menu span,
+  .icon-menu::before,
+  .icon-menu::after {
+    width: 30px;
+  }
+
+  .show-tablet {
+    display: block !important;
   }
 }
