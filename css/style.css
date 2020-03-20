@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-right > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-right > a:last-child:hover {
+  color: #f72210;
+}
+
+.navbar-right a:first-child {
+  color: #fff;
+}
+
+.navbar-right > a {
+  font-size: 14px;
+}
+
+header {
+  background-color: #f72210;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.brand svg {
+  width: 131px;
+  fill: #fff;
+}
+
+.subscribe {
+  background: #fff;
+  color: #f72210;
+  margin: 0 5px;
+  padding: 3px 1px;
+}
+
+.subscribe svg {
+  width: 8px;
+  fill: #f72210;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto 0 auto 10px;
+
+}
+
+.icon-menu {
+  padding: 10px;
+}
+
+.icon-menu span,
+.icon-menu::before,
+.icon-menu::after {
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: #fb9a94;
+  width: 26px;
+}
+
+@media (min-width: 575px) {
+  .navbar-right > a {
+    font-size: 18px;
+  }
+
+  .navbar-right a:last-child {
+    padding: 3px 6px;
+    line-height: 1.15;
+  }
+}
