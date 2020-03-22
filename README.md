@@ -80,14 +80,16 @@ Give a ⭐️ if you like this project!
 This project is free to use as learning purposes. For any external content (e.g. logo, images, ...), please contact the proper author and check their license of use.
 
 
-## 👋 Note from Author to you: 
+## 📣 Note from Author to you: 
+
+As always, I like to write some unrelated things here, to make our relationship closer, today I'd like to say a few things, remind you about the covid-19 outbreak:
+
 ```
-Drink water 💧;
-Play sports 🏊;
-Keep youself healthy 😄;
-Read books 📖;
-Give your loved ones a tight hug 👐;
-Tell her/him you love her/him 💌;
+Wash hands 🚿 ;
+Avoid touching people 👋;
+Stay home! Keep youself safe 🏡;
+Take care of your loved ones 👪;
+It all will pass, but we have to do our duty. So stay home and be safe, it will help you, your loved ones, the others and they loved ones too!;
 
 Wish you a Happy coding and a Happy life  ❤️
 ```
