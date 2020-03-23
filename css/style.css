@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap");
 * {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -44,6 +43,7 @@ header {
   width: 8px;
   fill: #f72210;
   height: -moz-fit-content;
+  height: -webkit-fit-content;
   height: fit-content;
   margin-left: 7px;
 }
@@ -65,29 +65,25 @@ header {
 }
 
 /* WORKING ON MAIN */
-
 /* WORKING ON MEDIA-QUERY */
 @media (min-width: 481px) {
   .navbar-right > a {
     font-size: 18px;
   }
-
   .navbar-right a:last-child {
     padding: 3px 6px;
     line-height: 1.15;
   }
-
   .icon-menu {
     margin: 0 10px;
   }
-
   .icon-menu span,
   .icon-menu::before,
   .icon-menu::after {
     width: 30px;
   }
-
   .show-tablet {
     display: block !important;
   }
 }
+/*# sourceMappingURL=style.css.map */
