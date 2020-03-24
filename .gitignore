@@ -1,5 +1,7 @@
 node_modules
 package-lock.json
 .gitattributes 
-css/style.scss
-css/style.css.map
+*.css.map
+*.sass.map
+*.scss.map
+*.scss

@@ -1,12 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap");
+header {
+  background-color: #f72210;
+}
+
 * {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 header {
-  background-color: #f72210;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+body {
+  background-color: #f4f5f7;
+}
+
+main > div {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10 px;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 /* WORKING ON HEADER */
@@ -36,15 +51,13 @@ header {
   background: #fff;
   color: #f72210;
   margin: 0 5px;
-  padding: 3px 1px;
+  padding: 6px 3px;
+  line-height: 0.9;
 }
 
 .subscribe svg {
   width: 8px;
   fill: #f72210;
-  height: -moz-fit-content;
-  height: -webkit-fit-content;
-  height: fit-content;
   margin-left: 7px;
 }
 
@@ -65,6 +78,54 @@ header {
 }
 
 /* WORKING ON MAIN */
+.section-title {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: #03030366;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.section-top {
+  position: relative;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.category {
+  position: absolute;
+  bottom: 0;
+  padding: 7px 17px;
+  background-color: #ffffffe6;
+  color: black;
+}
+
+.category-title {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: #f72210;
+}
+
+.section-headline a:hover {
+  -webkit-text-decoration: underline #f72210;
+          text-decoration: underline #f72210;
+}
+
+.section-headline h2 {
+  margin-top: 15px;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #000;
+}
+
+.sumary-paragraph {
+  font-size: 0.79rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* WORKING ON MEDIA-QUERY */
 @media (min-width: 481px) {
   .navbar-right > a {
