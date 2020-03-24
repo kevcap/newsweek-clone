@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+.more-stories-div a:hover, .culture-ribbon:hover, .culture-title:hover {
+  color: black;
+}
+
 main > section, .featured-stories-div section > div {
   margin-bottom: 20px;
 }
@@ -232,7 +237,26 @@ main > section {
 .more-stories-div a:hover {
   -webkit-text-decoration: underline #f72210;
           text-decoration: underline #f72210;
-  color: black;
+}
+
+/* WORKING ON CULTURE AND TRAVEL */
+.culture-article p {
+  color: #27272780;
+  font-family: Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+.culture-ribbon {
+  bottom: 0;
+  padding: 0 9px;
+  background: gray;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+}
+
+.culture-title h3 {
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
 }
 
 /* WORKING ON MEDIA-QUERY */
