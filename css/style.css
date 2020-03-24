@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap");
-header {
-  background-color: #f72210;
-}
-
-main > div, .featured-stories-div section > div {
+main > section, .featured-stories-div section > div {
   margin-bottom: 20px;
 }
 
@@ -11,7 +7,16 @@ main > div, .featured-stories-div section > div {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 header {
+  background-color: #f72210;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -20,7 +25,7 @@ body {
   background-color: #f4f5f7;
 }
 
-main > div {
+main > section {
   background-color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -127,6 +132,107 @@ main > div {
 .sumary-paragraph {
   font-size: 0.79rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* WORKING ON OPINION*/
+.opinion-div article {
+  height: -moz-fit-content;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.opinion-div section article + article {
+  -webkit-box-shadow: 0 -1px 0 0 grey;
+          box-shadow: 0 -1px 0 0 grey;
+}
+
+.opinion-article-img {
+  height: 63px;
+}
+
+.opinion-article-text * {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.opinion-article-text a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.opinion-article-text p {
+  text-transform: uppercase;
+  color: #555;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* WORKING ON DEBATE */
+.debate-text-n-img {
+  border-top: 4px solid tomato;
+}
+
+.debate-text-n-img img {
+  height: 95px;
+}
+
+.debate-text-n-img h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.debate-text-n-img:nth-child(4) {
+  border-top: 4px solid #1c87fb;
+}
+
+.debate-author {
+  -webkit-box-shadow: 0 -1px 0 0 grey;
+          box-shadow: 0 -1px 0 0 grey;
+}
+
+.debate-author img {
+  height: 63px;
+  top: -12px;
+  right: 0;
+}
+
+.vs-div {
+  background: black;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  font-size: 23px;
+}
+
+/* WORKING MORE STORIES */
+.more-stories-div {
+  border-top: 1px solid grey;
+  margin-top: 10px;
+}
+
+.more-stories-div img {
+  float: left;
+  margin-right: 10px;
+}
+
+.more-stories-div h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  width: 90%;
+}
+
+.more-stories-div p {
+  font-size: 0.9rem;
+}
+
+.more-stories-div a:hover {
+  -webkit-text-decoration: underline #f72210;
+          text-decoration: underline #f72210;
+  color: black;
 }
 
 /* WORKING ON MEDIA-QUERY */
