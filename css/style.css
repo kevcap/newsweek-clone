@@ -210,7 +210,7 @@ main > section {
 
 /* WORKING MORE STORIES */
 .more-stories-div {
-  border-top: 1px solid grey;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
   margin-top: 10px;
 }
 
