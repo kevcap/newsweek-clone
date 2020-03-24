@@ -260,6 +260,15 @@ main > section {
   font-size: 1.2rem;
 }
 
+/* WORKING ON LATEST NEWS SECTION */
+.latest-news article {
+  padding: 10px 0;
+}
+
+.latest-news article:not(:last-child) {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
 /* WORKING ON MEDIA-QUERY */
 @media (min-width: 481px) {
   .navbar-right > a {
