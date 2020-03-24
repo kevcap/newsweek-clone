@@ -3,6 +3,10 @@ header {
   background-color: #f72210;
 }
 
+main > div, .featured-stories-div section > div {
+  margin-bottom: 20px;
+}
+
 * {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -77,10 +81,6 @@ main > div {
 }
 
 /* WORKING ON MAIN */
-.top-story-div {
-  margin-bottom: 20px;
-}
-
 .section-title {
   font-size: 1.1em;
   text-transform: uppercase;
@@ -127,10 +127,6 @@ main > div {
 .sumary-paragraph {
   font-size: 0.79rem;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.featured-stories-div section > div {
-  margin-bottom: 20px;
 }
 
 /* WORKING ON MEDIA-QUERY */
