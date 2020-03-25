@@ -135,6 +135,7 @@ main > section {
   margin-bottom: 0;
   font-weight: 700;
   color: #f72210;
+  text-transform: uppercase;
 }
 
 .section-headline a:hover {
