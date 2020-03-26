@@ -132,7 +132,6 @@ main > section {
   text-transform: uppercase;
   color: #03030366;
   font-weight: 700;
-  margin-top: 15px;
 }
 
 .section-top {
@@ -478,12 +477,13 @@ article img {
 }
 
 /* WORKING ON GENERAL CATEGORIES */
-.general-categorie .section-title, .subscribe-section .section-title {
+.general-categorie .section-title,
+.subscribe-section .section-title,
+.newsletter-section .section-title {
   font-size: 1.1em;
   text-transform: uppercase;
   color: #f72210;
   font-weight: 700;
-  margin-top: 15px;
 }
 
 .first-img-category {
@@ -492,21 +492,12 @@ article img {
 }
 
 /* WORKING ON SUBSCRIBE Section */
-.subscribe-section {
-  padding: 20px;
+.subscribe-section, .newsletter-section {
+  padding: 15px;
 }
 
 .subscribe-section div {
   background: #f4f5f6;
-}
-
-.subscribe-section h4 {
-  color: black;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  width: 90%;
 }
 
 .subscribe-section p {
@@ -516,6 +507,17 @@ article img {
   margin-bottom: 20px;
   color: #333;
   line-height: 1.5;
+}
+
+.subscribe-section h4,
+.newsletter-section h4 {
+  margin-top: 20px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  width: 90%;
 }
 
 .two-images {
@@ -560,6 +562,21 @@ article img {
 .subscribe-section-link:hover {
   background-color: #de1f0e;
   color: white;
+}
+
+/* WORKING ON NEWSWEEK */
+.newsletter-section {
+  background-color: #fff;
+}
+
+.newsletter-section > div {
+  border: 1px solid #ebebeb;
+}
+
+.newsletter-img {
+  background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center/cover !important;
+  width: 100%;
+  height: 160px;
 }
 
 /* WORKING ON MEDIA-QUERY */
