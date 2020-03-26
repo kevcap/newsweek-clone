@@ -567,6 +567,7 @@ article img {
 /* WORKING ON NEWSWEEK */
 .newsletter-section {
   background-color: #fff;
+  margin-bottom: 20px;
 }
 
 .newsletter-section > div {
