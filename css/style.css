@@ -139,7 +139,7 @@ main > section {
   position: relative;
 }
 
-.img-container img {
+article img {
   width: 100%;
 }
 
@@ -188,8 +188,9 @@ main > section {
           box-shadow: 0 -1px 0 0 grey;
 }
 
-.opinion-article-img {
+.opinion-article-img, .debate-author img {
   height: 63px;
+  width: auto;
 }
 
 .opinion-article-text * {
@@ -216,6 +217,7 @@ main > section {
 
 .debate-text-n-img img {
   height: 95px;
+  width: auto;
 }
 
 .debate-text-n-img h3 {
@@ -234,7 +236,6 @@ main > section {
 }
 
 .debate-author img {
-  height: 63px;
   top: -12px;
   right: 0;
 }
@@ -302,12 +303,16 @@ main > section {
 }
 
 /* WORKING ON LATEST NEWS SECTION */
-.latest-news article {
+.latest-news article, .small-links article {
   padding: 10px 0;
 }
 
-.latest-news article:not(:last-child) {
+.latest-news article:not(:last-child), .small-links article:not(:last-child) {
   border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.latest-news article img, .small-links article img {
+  width: auto;
 }
 
 /* WORKING ON SIGNUP */
@@ -327,7 +332,7 @@ main > section {
   background-color: #888;
 }
 
-.sign-up-img {
+.icon-news {
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
@@ -336,6 +341,7 @@ main > section {
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   margin-right: 10px;
+  position: relative;
 }
 
 .sign-up-box {
@@ -364,10 +370,6 @@ main > section {
 /* WORKING IN THE MAGAZINE */
 .in-the-magazine > article {
   position: relative;
-}
-
-.in-the-magazine > article img {
-  width: 100%;
 }
 
 .article-ribbon {
@@ -444,6 +446,49 @@ main > section {
 
 .grey {
   color: #333;
+}
+
+/* WORKING ON FEATURED SLIDESHOWS */
+.featured-slideshows h3 .icon-news::after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.featured-ribbon {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #f72210;
+}
+
+/* WORKING ON GENERAL CATEGORIES */
+.general-categorie .section-title {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: #f72210;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.first-img-category {
+  width: 95px !important;
+  height: 63.5px;
 }
 
 /* WORKING ON MEDIA-QUERY */
