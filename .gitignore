@@ -6,3 +6,4 @@ package-lock.json
 *.scss.map
 *.scss
 genericons.css
+font
