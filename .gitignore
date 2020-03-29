@@ -5,7 +5,7 @@ package-lock.json
 *.sass.map
 *.scss.map
 *.scss
-genericons.css
+# genericons.css
 font
-lazyload.js
-weather.js
+# lazyload.js
+# weather.js
