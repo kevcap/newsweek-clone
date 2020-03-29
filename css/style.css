@@ -87,6 +87,12 @@ main > section {
   margin-left: 6px;
 }
 
+.navbar-right {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
 .navbar-right > a {
   font-size: 14px;
 }
@@ -719,6 +725,25 @@ footer > p {
   }
   .show-tablet {
     display: block !important;
+  }
+}
+
+@media (min-width: 992px) {
+  nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .weather-widget {
+    margin-right: 0 !important;
+  }
+  .brand {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .brand svg {
+    width: 396px;
   }
 }
 /*# sourceMappingURL=style.css.map */
