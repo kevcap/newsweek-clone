@@ -76,9 +76,13 @@ main > section {
 /* WORKING ON HEADER */
 .weather-widget {
   color: white;
-  font: 15px/34px "Roboto Condensed",sans-serif;
+  font: 15px/34px "Roboto Condensed", sans-serif;
   font-weight: 700;
   text-transform: capitalize;
+}
+
+.date {
+  font-weight: 400;
 }
 
 .country-name::after {
@@ -194,7 +198,7 @@ article img {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* WORKING ON OPINION*/
+/* WORKING ON OPINION */
 .opinion-div article {
   height: -moz-fit-content;
   padding-top: 10px;
