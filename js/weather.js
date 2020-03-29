@@ -20,7 +20,7 @@ function setItems() {
 
 async function getClientInfo() {
   //getClientIP, City, Country;
-  await $.getJSON("http://api.db-ip.com/v2/free/self").then((addrInfo) => {
+  await $.getJSON("https://api.db-ip.com/v2/free/self").then((addrInfo) => {
     ip = addrInfo.ipAddress;
     city = addrInfo.city;
     country = addrInfo.countryCode;
