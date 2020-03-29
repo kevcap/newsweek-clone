@@ -9,7 +9,7 @@
   color: #f72210;
 }
 
-.sign-up .sign-up-link::after, .see-all-features::after {
+.country-name::after, .sign-up .sign-up-link::after, .see-all-features::after {
   content: "";
   display: inline-block;
   width: 8px;
@@ -74,6 +74,19 @@ main > section {
 }
 
 /* WORKING ON HEADER */
+.weather-widget {
+  color: white;
+  font: 15px/34px "Roboto Condensed",sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.country-name::after {
+  width: 11px;
+  height: 12px;
+  margin-left: 6px;
+}
+
 .navbar-right > a {
   font-size: 14px;
 }
