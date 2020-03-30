@@ -20,11 +20,12 @@ function setItems() {
 
 async function getClientInfo() {
   //getClientIP, City, Country;
-  await $.getJSON("https://api.db-ip.com/v2/free/self").then((addrInfo) => {
-    ip = addrInfo.ipAddress;
-    city = addrInfo.city;
-    country = addrInfo.countryCode;
+  await $.getJSON('https://json.geoiplookup.io/', function(data) {
+    ip = data.ip;
+    city = data.city;
+    country = data.country_code;
   });
+
 
   //getClient: Time, and date:
   await $.getJSON(`https://api.ipgeolocation.io/ipgeo?apiKey=ecc73b10b83644bab6ab4d42e4af6f29&ip=${ip}`).then(clientInfo => date = new Date(clientInfo.time_zone.current_time)); //2020-03-29 13:19:06.629-0300
