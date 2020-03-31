@@ -3,8 +3,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/kevinfrontend/design-teardown-project/issues)
-[![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/kevinfrontend/design-teardown-project/pulls)
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/kevinfrontend/newsweek-clone/issues)
+[![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/kevinfrontend/newsweek-clone/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 [![Made By](https://img.shields.io/badge/Made%20By-Kevin%20Alves-brightgreen)](https://github.com/kevinfrontend)
 [![Twitter Follow](https://img.shields.io/twitter/follow/kevinfrontend?label=Follow%20Kevin%20on%20Twitter&style=social)](https://twitter.com/kevinfrontend)
@@ -38,6 +38,7 @@
 - [Vanilla JS](https://#)
 - [Stickler](https://stickler-ci.com) - A CSS Linter 
 - [W3 HTML Validator](https://validator.w3.org/) - A Markup Validation Service
+- [Bootstrap 4](https://getbootstrap.com/)
 
 ## 🔴 Live Demo
 
@@ -92,7 +93,6 @@ Wash hands 🚿 ;
 Avoid touching people 👋;
 Stay home! Keep youself safe 🏡;
 Take care of your loved ones 👪;
-It all will pass, but we have to do our duty. So stay home and be safe, it will help you, your loved ones, the others and they loved ones too!;
 
 Wish you a Happy coding and a Happy life  ❤️
 ```
