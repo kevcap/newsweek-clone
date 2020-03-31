@@ -821,7 +821,7 @@ footer > p {
   }
   .article-ribbon {
     position: absolute;
-    bottom: 115px;
+    bottom: 111px;
   }
   .first-article-magazine {
     position: relative;
@@ -861,15 +861,12 @@ footer > p {
   .first-article-magazine {
     top: 0;
   }
-  .article-ribbon {
-    bottom: 68px;
-  }
 }
 
 @media (min-width: 992px) {
   *,
   .see-all-features {
-    font-size: 20px;
+    font-size: 16px;
   }
   .latest-news {
     top: -194px;
@@ -909,7 +906,7 @@ footer > p {
     top: 0;
   }
   .article-ribbon {
-    bottom: 40px;
+    bottom: 78px;
   }
   .newsletter-img {
     height: 306px;
