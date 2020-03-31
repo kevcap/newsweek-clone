@@ -34,6 +34,8 @@
 ## 🔧 Built with<a name = "built_using"></a>
 
 - [HTML and CSS](https://www.w3schools.com/) - HTML5 and CSS3
+- [JQuery](https://www.google.com/)
+- [Vanilla JS](https://#)
 - [Stickler](https://stickler-ci.com) - A CSS Linter 
 - [W3 HTML Validator](https://validator.w3.org/) - A Markup Validation Service
 
@@ -61,7 +63,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kevinfrontend/design-teardown-project/issues).
+Feel free to check the [issues page](https://github.com/kevinfrontend/newsweek-clone/issues).
 
 
 ## 👍 Show your support
@@ -71,8 +73,9 @@ Give a ⭐️ if you like this project!
 
 ## 👊 Acknowledgments
 
-- 
-- 
+- [Lazyload](https://github.com/verlok/lazyload)
+- [OpenWeather](https://openweathermap.org)
+- [IpGeolocation](https://ipgeolocation.io/)
 
 
 ## 📝 License
