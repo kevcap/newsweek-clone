@@ -62,7 +62,7 @@
     </nav>
     <div class="bottom-menu d-none d-lg-block">
       <div class="search-content justify-content-end">
-        <input type="text" class="search" id="search" placeholder="Search" onfocus="aumentar()">
+        <input type="text" class="search" id="search" placeholder="Search" onfocusin="aumentar()" onfocusout="diminuir()">
         <label for="search"></label>
       </div>
       <ul>
@@ -2701,11 +2701,14 @@
     crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@14.0.0/dist/lazyload.min.js"></script>
   <script src="./js/lazyload.js"></script>
-  <!-- <script src="./js/weather.js"></script> -->
+  <script src="./js/weather.js"></script>
   <script>
     function aumentar() {
       $(".search-content").css("width", "92%")
       console.log('teste');
+    }
+    function diminuir() {
+      $(".search-content").css("transition", "width 300ms ease", "width", "20px")
     }
   </script>
 </body>
