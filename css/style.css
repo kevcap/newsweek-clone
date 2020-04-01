@@ -243,14 +243,59 @@ article img {
   width: auto;
 }
 
-.opinion-article-text * {
+.opinion-article-text *,
+.bottom-menu * {
   font-size: 1rem;
   font-weight: 700;
 }
 
-.opinion-article-text a:hover {
+.opinion-article-text a:hover,
+.bottom-menu ul li a:hover {
   color: #f72210;
   text-decoration: none;
+}
+
+.bottom-menu {
+  position: relative;
+}
+
+.bottom-menu::before {
+  position: absolute;
+  right: 0;
+  content: "";
+  display: block;
+  width: 22px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+  width: 66px;
+}
+
+.bottom-menu ul {
+  background: #fff;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px;
+  padding-right: 160px;
+  border-bottom: 2px solid #f4f5f6;
+}
+
+.bottom-menu ul li {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  text-transform: capitalize !important;
+}
+
+.bottom-menu ul li a {
+  font-size: 20px;
+}
+
+.bottom-menu ul li ~ li {
+  border-left: 1px solid #d9d9d9;
 }
 
 .opinion-article-text p {
@@ -864,6 +909,37 @@ footer > p {
 }
 
 @media (min-width: 992px) {
+  .search-content {
+    position: absolute;
+    right: 79px;
+    width: 91%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .search-content .search {
+    border: none;
+    width: 60px;
+    height: 54px;
+    font-weight: normal;
+    margin-right: 22px;
+    font-size: 20px;
+    -webkit-transition: width 300ms ease;
+    transition: width 300ms ease;
+  }
+  .search-content .search:focus {
+    width: 100%;
+  }
+  .search-content label {
+    background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 18px;
+  }
   *,
   .see-all-features {
     font-size: 16px;
@@ -883,9 +959,10 @@ footer > p {
     margin-right: 0 !important;
   }
   .brand {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
   }
   .brand svg {
     width: 396px;
