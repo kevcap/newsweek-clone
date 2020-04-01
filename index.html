@@ -11,7 +11,7 @@
   <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
 </head>
 
-<body>
+<body class="container-max">
   <header>
     <nav class="d-flex  p-3 align-items-center justify-content-around">
       <a class="brand" href="https://www.newsweek.com">
@@ -21,8 +21,8 @@
       </a>
       <div class="ml-1 mr-auto weather-widget d-none d-sm-block">
         <div class="weather-container d-flex flex-column mr-auto">
-          <div class="weather-n-cit d-flex">
-            <span class="weather-icon"></span>
+          <div class="weather-n-cit d-flex align-items-center">
+            <span class="weather-icon d-none d-md-block"></span>
             <span class="temperature d-none d-sm-block"></span>
             <span class="city-name hidden"></span>
             <span class="country-name d-sm-none d-md-block"></span>
@@ -62,7 +62,7 @@
     </nav>
     <div class="bottom-menu d-none d-lg-block">
       <div class="search-content justify-content-end">
-        <input type="text" class="search" id="search" placeholder="Search">
+        <input type="text" class="search" id="search" placeholder="Search" onfocus="aumentar()">
         <label for="search"></label>
       </div>
       <ul>
@@ -634,7 +634,7 @@
       </article>
 
       
-      <article class="magazine-article col-sm-4">
+      <article class="magazine-article">
         <a href="#">
           <picture>
             <img data-src="https://d.newsweek.com/en/full/1570671/tom-brady-new-england-patriots.webp?w=397&h=265&q=90&f=0cf996f10f624ef90235ae378f8699b4" alt="#">
@@ -646,7 +646,7 @@
         <a href="#" class="magazine-link text-underline">The Four Greatest 'Tom Brady' Moments of Tom Brady's Patriots Career</a>
       </article>
       
-      <article class="magazine-article col-sm-4">
+      <article class="magazine-article">
         <a href="#">
           <picture>
             <img data-src="https://d.newsweek.com/en/full/1575272/fe-covid-cure-opener.webp?w=397&h=265&l=47&t=40&q=90&f=262d66bad1bf44d4a7b35cd9cb65aae7" alt="#">
@@ -1387,7 +1387,10 @@
                   </p>
                 </div>
               </article>
-                    
+
+            </section>
+
+            <section class="sticky-left position-lg-sticky sticky-top">
               <article> 
                 <div class="section-top">
                   <a class="img-container" href="https://www.newsweek.com/trump-announces-deployment-national-guard-worst-hit-covid-19-states-were-fighting-invisible-1493666">
@@ -1398,9 +1401,6 @@
                   </a>
                 </div>
               </article>
-            </section>
-
-            <section class="sticky-left position-lg-sticky sticky-top">
               <div class="section-headline">
                 <a href="https://www.newsweek.com/trump-announces-deployment-national-guard-worst-hit-covid-19-states-were-fighting-invisible-1493666">
                   <h2>
@@ -2701,7 +2701,13 @@
     crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@14.0.0/dist/lazyload.min.js"></script>
   <script src="./js/lazyload.js"></script>
-  <script src="./js/weather.js"></script>
+  <!-- <script src="./js/weather.js"></script> -->
+  <script>
+    function aumentar() {
+      $(".search-content").css("width", "92%")
+      console.log('teste');
+    }
+  </script>
 </body>
 
 </html> 

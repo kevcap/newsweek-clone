@@ -79,6 +79,10 @@ main > div > section {
   display: none;
 }
 
+.container-max {
+  max-width: 1310px;
+}
+
 .section-divisor {
   border-top: 1px solid rgba(128, 128, 128, 0.3);
   padding-top: 20px;
@@ -867,7 +871,8 @@ footer > p {
   }
   .article-ribbon {
     position: absolute;
-    bottom: 111px;
+    bottom: 113px;
+    left: 14px;
   }
   .first-article-magazine {
     position: relative;
@@ -910,10 +915,25 @@ footer > p {
 }
 
 @media (min-width: 992px) {
+  html {
+    background: #f4f5f6;
+  }
+  .navbar-right a:first-child {
+    margin-top: 4px;
+  }
+  .last-magazine-article:last-child {
+    margin-top: -10px;
+  }
+  .subscribe {
+    padding: 4px 7px;
+  }
+  .subscribe svg {
+    margin-left: 12px;
+  }
   .search-content {
     position: absolute;
     right: 79px;
-    width: 92%;
+    width: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -947,10 +967,10 @@ footer > p {
     font-size: 16px;
   }
   .latest-news {
-    top: -194px;
+    top: -150px;
   }
   .sticky-left {
-    top: -46px;
+    top: -112px;
   }
   nav {
     -webkit-box-pack: justify;
@@ -959,6 +979,12 @@ footer > p {
   }
   .weather-widget {
     margin-right: 0 !important;
+  }
+  .weather-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-size: 100%;
   }
   .brand {
     position: absolute;
@@ -985,7 +1011,7 @@ footer > p {
     top: 0;
   }
   .article-ribbon {
-    bottom: 78px;
+    bottom: 34px;
   }
   .newsletter-img {
     height: 306px;
