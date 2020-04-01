@@ -913,7 +913,7 @@ footer > p {
   .search-content {
     position: absolute;
     right: 79px;
-    width: 91%;
+    width: 92%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -930,6 +930,7 @@ footer > p {
     font-size: 20px;
     -webkit-transition: width 300ms ease;
     transition: width 300ms ease;
+    outline: none;
   }
   .search-content .search:focus {
     width: 100%;
