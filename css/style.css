@@ -167,6 +167,7 @@ main > div > section {
 
 .icon-menu {
   padding: 10px;
+  cursor: pointer;
 }
 
 .icon-menu span,
@@ -819,6 +820,9 @@ footer > p {
   main > div > section {
     border: none;
   }
+  .sticky-left {
+    top: -176px;
+  }
   .border-title {
     border-bottom: 1px solid #d9d9d9;
     padding-bottom: 8px;
@@ -1027,5 +1031,9 @@ footer > p {
         -ms-flex: 1;
             flex: 1;
   }
+}
+
+.subscribe:hover {
+  color: #f72210 !important;
 }
 /*# sourceMappingURL=style.css.map */
