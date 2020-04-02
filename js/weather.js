@@ -16,7 +16,7 @@ function setItems() {
   $(".city-name").html(city + ', ');
   $(".weather-icon").css("background-image", `url(${icon})`)
   $(".country-name").html(country);
-  $(".temperature").html(temp + 'º');
+  $(".temperature").html(temp + 'º ');
   date = date.toString().split(' ');
   $(".date").html(`${date[0]}, ${date[1]} ${date[2]}, ${date[3]}`);
 }
@@ -99,3 +99,16 @@ async function getClientInfo() {
 };
 
 getClientInfo();
+
+
+if(ip == undefined || ip == null) {
+  city = "Brasília";
+  country = "BR";
+  date = "Thu Apr 02 2020"
+  day = true;
+  hour = 12;
+  temp = 21;
+  weather = "Rain"
+  icon = "https://g.newsweek.com/img/weather/30.png"
+  setItems();
+}
