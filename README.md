@@ -23,10 +23,10 @@
 
 
 ## 🧐 About <a name = "about"></a>
-<h3 align="center"> This is an assigment for Microverse's HTML and CSS course, and the goal is to teardown the design of Smashing Magazine's <a href="https://www.smashingmagazine.com/">main page</a>, to learn about UX design, elements hierarchy and positionation with grid, float and flex</h3>
+<h3 align="center"> This is an assigment for Microverse's HTML and CSS course, and the goal is to clone, using bootstrap and personal css, the Newsweek <a href="https://www.newsweek.com/">main page</a>, to learn how to properly use boostrap and other tools</h3>
 <p align="center">
   <a href="" rel="noopener">
- <img src="./img/screenshot.png" alt="Project Screenshot"></a>
+ <img src="./img/screenshot.gif" alt="Project Screenshot"></a>
 </p>
 
 ---
@@ -44,7 +44,7 @@
 
 ## 🔴 Live Demo
 
-[Live Demo](https://rawcdn.githack.com/kevinfrontend/newsweek-clone/64ba8a1238cab7584c7f9468977e4f6bc9a17815/index.html)
+[Live Demo](https://rawcdn.githack.com/kevinfrontend/newsweek-clone/2cd0c4217d7504395e455bfe0148943eab94d238/index.html)
 
 ### 🛠 Installing <a name = "installing"></a>
 
