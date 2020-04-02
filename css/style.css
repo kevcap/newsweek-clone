@@ -962,9 +962,54 @@ footer {
     width: 191px;
     height: 191px;
   }
+
+  .navbar-fixed {
+    position: fixed;
+    top: -2;
+    z-index: 200000;
+    left: 0;
+    background-color: #f72210;
+    width: 100%;
+    height: 50px;
+    margin-top: -11px;
+    padding-bottom: 40px !important;
+  }
+
+  .navbar-fixed .brand {
+    order: 0;
+    position: unset;
+    transform: none;
+  }
+
+  .navbar-fixed .date {
+    display: none !important;
+  }
+
+  .navbar-fixed .brand svg {
+    width: 131px;
+  }
+
+  .navbar-fixed .weather-container {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  .padding-100 {
+    padding-top: 80px;
+    display: block;
+    width: 100%;
+    height: 1px;
+  }
 }
 
 @media (min-width: 992px) {
+  .padding-100 {
+    padding-top: 100px;
+    display: block;
+    width: 100%;
+    height: 1px;
+  }
+
   html {
     background: #f4f5f6;
   }

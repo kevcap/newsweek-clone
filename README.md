@@ -34,15 +34,17 @@
 ## 🔧 Built with<a name = "built_using"></a>
 
 - [HTML and CSS](https://www.w3schools.com/) - HTML5 and CSS3
+- [Sass](https://www.sass.com/) - HTML5 and CSS3
 - [JQuery](https://www.google.com/)
 - [Vanilla JS](https://#)
 - [Stickler](https://stickler-ci.com) - A CSS Linter 
 - [W3 HTML Validator](https://validator.w3.org/) - A Markup Validation Service
-- [Bootstrap 4](https://getbootstrap.com/)
+- [Bootstrap 4](https://getbootstrap.com/);
+- [Photoshop CC](https://adobe.com);
 
 ## 🔴 Live Demo
 
-[Live Demo](https://raw.githack.com/kevinfrontend/---/feature/index.html)
+[Live Demo](https://rawcdn.githack.com/kevinfrontend/newsweek-clone/64ba8a1238cab7584c7f9468977e4f6bc9a17815/index.html)
 
 ### 🛠 Installing <a name = "installing"></a>
 
