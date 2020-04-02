@@ -22,7 +22,7 @@
       <div class="ml-1 mr-auto weather-widget d-none d-sm-block">
         <div class="weather-container d-flex flex-column mr-auto">
           <div class="weather-n-cit d-flex align-items-center">
-            <span class="weather-icon d-none d-md-block"></span>
+            <span class="weather-icon d-none"></span>
             <span class="temperature d-none d-sm-block"></span>
             <span class="city-name hidden"></span>
             <span class="country-name d-sm-none d-md-block"></span>
@@ -65,17 +65,17 @@
         <label for="search"></label>
       </div>
       <ul>
-        <li><a href="#">U.S.</a></li>
-        <li><a href="#">World</a></li>
-        <li><a href="#">Business</a></li>
-        <li><a href="#">Tech & Science</a></li>
-        <li><a href="#">Culture</a></li>
-        <li><a href="#">Newsgeek</a></li>
-        <li><a href="#">Sports</a></li>
-        <li><a href="#">Health</a></li>
-        <li><a href="#">The Debate</a></li>
-        <li><a href="#">Vantage</a></li>
-        <li><a href="#">weather</a></li>
+        <li><a class="font-size-20" href="#">U.S.</a></li>
+        <li><a class="font-size-20" href="#">World</a></li>
+        <li><a class="font-size-20" href="#">Business</a></li>
+        <li><a class="font-size-20" href="#">Tech & Science</a></li>
+        <li><a class="font-size-20" href="#">Culture</a></li>
+        <li><a class="font-size-20" href="#">Newsgeek</a></li>
+        <li><a class="font-size-20" href="#">Sports</a></li>
+        <li><a class="font-size-20" href="#">Health</a></li>
+        <li><a class="font-size-20" href="#">The Debate</a></li>
+        <li><a class="font-size-20" href="#">Vantage</a></li>
+        <li><a class="font-size-20" href="#">weather</a></li>
       </ul>
     </div>
   </header>
@@ -1956,10 +1956,12 @@
             <div class="mag-row1 row d-flex flex-wrap">
               <article class=" first-article-magazine mt-3 mt-lg-0 col-sm-3">
                 <h6 class="always-hidden">#</h6>
-                <a href="#">
-                  <img src="test" data-src="https://d.newsweek.com/en/full/1576902/april-03-2020-cover.jpg?w=360&h=480&l=0&t=0&q=90&f=32baa29597300c7a9e09b35b8d6b1265" alt="MAGAZINE">
-                </a>
-                <a class="article-ribbon" href="https://www.newsweek.com/2020/03/27/issue.html"> April 03 ISSUE</a>
+                <div class="first-article-image-content">
+                  <a href="#">
+                    <img src="test" data-src="https://d.newsweek.com/en/full/1576902/april-03-2020-cover.jpg?w=360&h=480&l=0&t=0&q=90&f=32baa29597300c7a9e09b35b8d6b1265" alt="MAGAZINE">
+                  </a>
+                  <a class="article-ribbon" href="https://www.newsweek.com/2020/03/27/issue.html"> April 03 ISSUE</a>
+                </div>
                 <a href="#" class="see-all-features">see all features</a>
               </article>
   
@@ -2839,7 +2841,8 @@
       console.log('teste');
     }
     function diminuir() {
-      $(".search-content").css("transition", "width 300ms ease", "width", "20px")
+      $(".search-content").css("transition", "width 300ms ease")
+      $(".search-content").css("width", "20px")
     }
   </script>
 </body>

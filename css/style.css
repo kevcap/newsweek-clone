@@ -1,7 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
-.more-stories-div a:hover, .culture-title:hover, .text-underline:hover {
-  color: black;
+
+.article-ribbon {
+  padding: 4px 10px;
+  background: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f72210;
+  text-transform: uppercase;
 }
 
 .article-ribbon:hover {
@@ -9,7 +18,9 @@
   color: #f72210;
 }
 
-.country-name::after, .sign-up .sign-up-link::after, .see-all-features::after {
+.country-name::after,
+.sign-up .sign-up-link::after,
+.see-all-features::after {
   content: "";
   display: inline-block;
   width: 8px;
@@ -18,7 +29,41 @@
   background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
 }
 
-main > div > section, .featured-stories-div section > div {
+footer > p {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe-section p {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.magazine-article div {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.subscribe-section div {
+  background: #f4f5f6;
+}
+
+.newsletter-section > div {
+  border: 1px solid #ebebeb;
+}
+
+main > div > section,
+.featured-stories-div section > div {
   margin-bottom: 20px;
 }
 
@@ -30,6 +75,10 @@ img {
   display: block;
   border: 0;
   opacity: 0;
+}
+
+article img {
+  width: 100%;
 }
 
 img:not(.initial) {
@@ -117,6 +166,10 @@ main > div > section {
   text-transform: capitalize;
 }
 
+.first-article-image-content {
+  position: relative;
+}
+
 .date {
   font-weight: 400;
 }
@@ -129,12 +182,22 @@ main > div > section {
 
 .navbar-right {
   -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
+  -ms-flex-order: 3;
+  order: 3;
 }
 
 .navbar-right > a {
   font-size: 14px;
+}
+
+.magazine-article div a {
+  color: #f72210;
+}
+
+.more-stories-div a:hover,
+.culture-title:hover,
+.text-underline:hover {
+  color: black;
 }
 
 .navbar-right > a:hover {
@@ -144,6 +207,35 @@ main > div > section {
 
 .navbar-right a:first-child {
   color: #fff;
+}
+
+.section-headline a:hover {
+  -webkit-text-decoration: underline #f72210;
+  text-decoration: underline #f72210;
+}
+
+.font-size-20 {
+  font-size: 20px !important;
+}
+
+.opinion-article-text a:hover,
+.font-size-20:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.more-stories-div a:hover {
+  -webkit-text-decoration: underline #f72210;
+  text-decoration: underline #f72210;
+}
+
+.footer-editions .menu a,
+.footer-editions .second-div a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 3px 20px 3px 0;
+  display: inline-block;
+  color: #666;
 }
 
 .navbar-right > a:last-child:hover {
@@ -198,10 +290,6 @@ main > div > section {
   position: relative;
 }
 
-article img {
-  width: 100%;
-}
-
 .category {
   position: absolute;
   bottom: 0;
@@ -216,11 +304,6 @@ article img {
   font-weight: 700;
   color: #f72210;
   text-transform: uppercase;
-}
-
-.section-headline a:hover {
-  -webkit-text-decoration: underline #f72210;
-          text-decoration: underline #f72210;
 }
 
 .section-headline h2 {
@@ -242,12 +325,22 @@ article img {
   margin-bottom: 10px;
 }
 
-.opinion-div section article + article {
-  -webkit-box-shadow: 0 -1px 0 0 grey;
-          box-shadow: 0 -1px 0 0 grey;
+.latest-news article,
+.small-links article {
+  padding: 10px 0;
 }
 
-.opinion-article-img, .debate-author img {
+.in-the-magazine > article {
+  position: relative;
+}
+
+.opinion-div section article + article {
+  -webkit-box-shadow: 0 -1px 0 0 grey;
+  box-shadow: 0 -1px 0 0 grey;
+}
+
+.opinion-article-img,
+.debate-author img {
   height: 63px;
   width: auto;
 }
@@ -256,12 +349,6 @@ article img {
 .bottom-menu * {
   font-size: 1rem;
   font-weight: 700;
-}
-
-.opinion-article-text a:hover,
-.bottom-menu ul li a:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .bottom-menu {
@@ -273,7 +360,6 @@ article img {
   right: 0;
   content: "";
   display: block;
-  width: 22px;
   background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
@@ -294,14 +380,10 @@ article img {
 
 .bottom-menu ul li {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: center;
   text-transform: capitalize !important;
-}
-
-.bottom-menu ul li a {
-  font-size: 20px;
 }
 
 .bottom-menu ul li ~ li {
@@ -380,11 +462,6 @@ article img {
   font-size: 0.9rem;
 }
 
-.more-stories-div a:hover {
-  -webkit-text-decoration: underline #f72210;
-          text-decoration: underline #f72210;
-}
-
 /* WORKING ON CULTURE AND TRAVEL */
 .culture-article p {
   color: #27272780;
@@ -411,15 +488,13 @@ article img {
 }
 
 /* WORKING ON LATEST NEWS SECTION */
-.latest-news article, .small-links article {
-  padding: 10px 0;
-}
-
-.latest-news article:not(:last-child), .small-links article:not(:last-child) {
+.latest-news article:not(:last-child),
+.small-links article:not(:last-child) {
   border-bottom: 1px solid rgba(128, 128, 128, 0.3);
 }
 
-.latest-news article img, .small-links article img {
+.latest-news article img,
+.small-links article img {
   width: auto;
 }
 
@@ -442,8 +517,8 @@ article img {
 
 .icon-news {
   -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  -ms-flex: none;
+  flex: none;
   display: block;
   width: 29px;
   height: 28px;
@@ -476,21 +551,6 @@ article img {
 }
 
 /* WORKING IN THE MAGAZINE */
-.in-the-magazine > article {
-  position: relative;
-}
-
-.article-ribbon {
-  padding: 4px 10px;
-  background: white;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  font-size: 16px;
-  font-weight: 700;
-  color: #f72210;
-  text-transform: uppercase;
-}
 
 .see-all-features {
   text-transform: uppercase;
@@ -512,17 +572,11 @@ article img {
 
 .text-underline:hover {
   -webkit-text-decoration: underline #f72210;
-          text-decoration: underline #f72210;
+  text-decoration: underline #f72210;
 }
 
 .magazine-article {
   margin-bottom: 20px;
-}
-
-.magazine-article div {
-  text-transform: uppercase;
-  font-weight: 700;
-  margin: 10px 0;
 }
 
 .magazine-article div p {
@@ -531,10 +585,6 @@ article img {
   padding: 0 7px;
   margin-right: 10px;
   margin-bottom: 0;
-}
-
-.magazine-article div a {
-  color: #f72210;
 }
 
 .magazine-article .magazine-link {
@@ -601,21 +651,9 @@ article img {
 }
 
 /* WORKING ON SUBSCRIBE Section */
-.subscribe-section, .newsletter-section {
+.subscribe-section,
+.newsletter-section {
   padding: 15px;
-}
-
-.subscribe-section div {
-  background: #f4f5f6;
-}
-
-.subscribe-section p {
-  font-family: Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  margin-bottom: 20px;
-  color: #333;
-  line-height: 1.5;
 }
 
 .subscribe-section h4,
@@ -640,13 +678,10 @@ article img {
 }
 
 .second-img {
-  margin: 0 auto;
-}
-
-.second-img {
   position: absolute;
   top: 13px;
   left: 170px;
+  margin: 0 auto;
 }
 
 .subscribe-section-link {
@@ -679,10 +714,6 @@ article img {
   margin-bottom: 20px;
 }
 
-.newsletter-section > div {
-  border: 1px solid #ebebeb;
-}
-
 .newsletter-img {
   background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center/cover !important;
   width: 100%;
@@ -695,16 +726,6 @@ footer {
   padding-top: 10px;
   padding-bottom: 25px;
   border-top: 1px solid #f4f5f6;
-}
-
-footer > p {
-  font-size: 12px;
-  line-height: 12px;
-  text-transform: uppercase;
-  color: #666;
-  margin-bottom: 12px;
-  margin-top: 15px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-logo {
@@ -760,14 +781,6 @@ footer > p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer-editions .menu a,
-.footer-editions .second-div a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  margin: 3px 20px 3px 0;
-  display: inline-block;
-}
-
 .footer-editions .menu {
   margin-top: 10px;
 }
@@ -780,15 +793,13 @@ footer > p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer-editions .second-div, .footer-editions .menu {
+.footer-editions .second-div,
+.footer-editions .menu {
   display: inline-block;
 }
 
-.footer-editions .second-div a, .footer-editions .menu a {
-  color: #666;
-}
-
-.footer-editions .second-div a:hover, .footer-editions .menu a:hover {
+.footer-editions .second-div a:hover,
+.footer-editions .menu a:hover {
   color: black;
 }
 
@@ -797,20 +808,32 @@ footer > p {
   .navbar-right > a {
     font-size: 18px;
   }
+
   .navbar-right a:last-child {
     padding: 3px 6px;
     line-height: 1.15;
   }
+
   .icon-menu {
     margin: 0 10px;
   }
+
   .icon-menu span,
   .icon-menu::before,
   .icon-menu::after {
     width: 30px;
   }
+
   .show-tablet {
     display: block !important;
+  }
+
+  .weather-icon {
+    display: block !important;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-size: 100%;
   }
 }
 
@@ -824,46 +847,55 @@ footer > p {
   main > div > section {
     border: none;
   }
+
   .sticky-left {
     top: -176px;
   }
+
   .border-title {
     border-bottom: 1px solid #d9d9d9;
     padding-bottom: 8px;
     width: 97.5%;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   .sign-up-box {
     width: 300px;
   }
+
   .genericon {
     margin-bottom: 0;
   }
+
   body {
     background: #fff;
   }
+
   .culture-article {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     padding: 10px;
   }
+
   .magazine-article {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
+
   .magazine-article a picture {
     display: block;
     position: relative;
     padding-bottom: 100%;
     overflow: hidden;
   }
+
   .magazine-article a picture img {
     -webkit-transform: translate(-50%, 0%);
-            transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
     position: absolute;
     top: 0;
     left: 50%;
@@ -871,54 +903,64 @@ footer > p {
     height: 100%;
     max-width: inherit;
   }
+
   .see-all-features {
     font-size: 16px;
   }
+
   .magazine-link {
     font-size: 20px;
   }
+
   .article-ribbon {
     position: absolute;
-    bottom: 113px;
-    left: 14px;
+    bottom: 0;
+    left: 0;
   }
+
   .first-article-magazine {
     position: relative;
-    top: 52px;
+    top: 0;
   }
+
   .general-categorie article div > article {
     padding-top: 10px;
   }
+
   main > .section-divisor {
     width: 100%;
     margin: 0;
   }
+
   .two-images {
     -webkit-transform: translateX(33%);
-            transform: translateX(33%);
+    transform: translateX(33%);
     margin-right: 90px;
   }
+
   .two-images .first-img {
     -webkit-transform: translateX(-15%);
-            transform: translateX(-15%);
+    transform: translateX(-15%);
     margin-left: 0;
   }
+
   .two-images .second-img {
     left: 50px;
   }
+
   .subscribe-section h4,
   .newsletter-section h4 {
     text-align: left;
   }
-  .subscribe-section, .newsletter-section {
+
+  .subscribe-section,
+  .newsletter-section {
     border-bottom: 0;
   }
+
   .newsletter-img {
     width: 191px;
     height: 191px;
-  }
-  .first-article-magazine {
-    top: 0;
   }
 }
 
@@ -926,18 +968,23 @@ footer > p {
   html {
     background: #f4f5f6;
   }
+
   .navbar-right a:first-child {
     margin-top: 4px;
   }
+
   .last-magazine-article:last-child {
     margin-top: -10px;
   }
+
   .subscribe {
     padding: 4px 7px;
   }
+
   .subscribe svg {
     margin-left: 12px;
   }
+
   .search-content {
     position: absolute;
     right: 79px;
@@ -946,9 +993,10 @@ footer > p {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    -ms-flex-pack: end;
+    justify-content: end;
   }
+
   .search-content .search {
     border: none;
     width: 60px;
@@ -960,9 +1008,11 @@ footer > p {
     transition: width 300ms ease;
     outline: none;
   }
+
   .search-content .search:focus {
     width: 100%;
   }
+
   .search-content label {
     background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
     width: 20px;
@@ -970,74 +1020,77 @@ footer > p {
     position: absolute;
     top: 18px;
   }
+
   *,
   .see-all-features {
     font-size: 16px;
   }
+
   .latest-news {
     top: -150px;
   }
+
   .sticky-left {
     top: -112px;
   }
+
   nav {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
+
   .weather-widget {
     margin-right: 0 !important;
   }
-  .weather-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-    background-size: 100%;
-  }
+
   .brand {
     position: absolute;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
   }
+
   .brand svg {
     width: 396px;
   }
+
   .first-row .col-lg-3 {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 29%;
-            flex: 0 0 29%;
+    -ms-flex: 0 0 29%;
+    flex: 0 0 29%;
     max-width: 29%;
   }
+
   .first-row .col-lg-6 {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 41%;
-            flex: 0 0 41%;
+    -ms-flex: 0 0 41%;
+    flex: 0 0 41%;
     max-width: 41%;
   }
+
   .first-article-magazine {
     top: 0;
   }
-  .article-ribbon {
-    bottom: 34px;
-  }
+
   .newsletter-img {
     height: 306px;
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
+
   .newsletter-content {
     height: 308px;
   }
+
   .text-newsletter {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 }
 
 .subscribe:hover {
   color: #f72210 !important;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
