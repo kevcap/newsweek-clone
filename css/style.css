@@ -98,6 +98,10 @@ main > div > section {
   margin-bottom: 25px;
 }
 
+.always-hidden {
+  display: none;
+}
+
 /* BOOTSTRAP */
 .row,
 .container {
