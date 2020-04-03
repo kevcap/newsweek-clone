@@ -17,8 +17,8 @@
 <p align="center">
 <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#installing">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#built_using">Build with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#authors">Authors</a>
+<a href="#built_using">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#authors">Author</a>
 </p>
 
 
@@ -33,14 +33,14 @@
 
 ## 🔧 Built with<a name = "built_using"></a>
 
-- [HTML and CSS](https://www.w3schools.com/) - HTML5 and CSS3
-- [Sass](https://www.sass.com/) - HTML5 and CSS3
-- [JQuery](https://www.google.com/)
-- [Vanilla JS](https://#)
-- [Stickler](https://stickler-ci.com) - A CSS Linter 
-- [W3 HTML Validator](https://validator.w3.org/) - A Markup Validation Service
-- [Bootstrap 4](https://getbootstrap.com/);
-- [Photoshop CC](https://adobe.com);
+- [HTML and CSS](https://www.w3schools.com/) - HTML5 and CSS3;
+- [W3 HTML Validator](https://validator.w3.org/) - A Markup Validation Service;
+- [Stickler](https://stickler-ci.com) - A CSS Linter;
+- [Sass](https://www.sass.com/) - CSS with superpowers;
+- [Vanilla JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript);
+- [JQuery](https://www.google.com/) - The Write Less, Do More, JavaScript Library;
+- [Bootstrap 4](https://getbootstrap.com/) - Bootstrap · The most popular HTML, CSS, and JS library in the world;
+- [Photoshop CC](https://adobe.com) - A powerfull photo editor;
 
 ## 🔴 Live Demo
 
