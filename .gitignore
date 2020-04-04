@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+.gitattributes 
+*.css.map
+*.sass.map
+*.scss.map
+*.scss
+# genericons.css
+font
+# lazyload.js
+# weather.js
