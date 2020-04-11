@@ -7,7 +7,7 @@
 [![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/kevinfrontend/newsweek-clone/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 [![Made By](https://img.shields.io/badge/Made%20By-Kevin%20Alves-brightgreen)](https://github.com/kevinfrontend)
-[![Twitter Follow](https://img.shields.io/twitter/follow/kevinfrontend?label=Follow%20Kevin%20on%20Twitter&style=social)](https://twitter.com/kevinfrontend)
+[![Twitter Follow](https://img.shields.io/twitter/follow/kevinfrontend?label=Follow%20Kevin%20on%20Twitter&style=social)](https://twitter.com/kevinnnmn)
 
 </div>
 
